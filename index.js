@@ -11,6 +11,6 @@ function save() {
   const entry = ` ${count} -`;
   saveEl.textContent += entry;
 
-  countEl.textContent = count;
+  countEl.textContent = 0;
   count = 0;
 }
